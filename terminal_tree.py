@@ -1,4 +1,6 @@
+import os
 import random
+import time
 
 BALL = '⏺'
 COLOR = {
@@ -66,4 +68,7 @@ def colored_stars_balls(tree):
 
 
 if __name__ == '__main__':
-    print('\n'.join(colored_stars_balls(balls(tree()))))
+    while True:
+        time.sleep(random.uniform(.5, 1.5))
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print('\n'.join(colored_stars_balls(balls(tree()))))
