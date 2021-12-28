@@ -3,15 +3,15 @@ import os
 import random
 import time
 
-BALL = '⏺'
+BALL = '●'
 COLOR = {
-    'blue': '\033[94m',
-    'yellow': '\033[93m',
-    'cyan': '\033[96m',
-    'green': '\033[92m',
-    'magenta': '\033[95m',
-    'white': '\033[97m',
-    'red': '\033[91m'
+    'blue': '\033[34m',
+    'yellow': '\033[33m',
+    'cyan': '\033[36m',
+    'green': '\033[32m',
+    'magenta': '\033[35m',
+    'white': '\033[37m',
+    'red': '\033[31m'
 }
 STAR = '★'
 
